@@ -6,9 +6,12 @@ public class NotesForTests {
     menuBrowseLanguages.click(); Нажать на вкладку Browse Languages
     Thread.sleep(1000); Задержка на 1 сек для удобства просмотра, при посте на GitHab лучше убрать
     driver.quit(); Закрыть браузер после теста
+    driver.get text(); считывание текста
 
 
-
+Проблемы в тестах
+- неправильный Xpath
+- долго подгружаются данные
 
 
     */

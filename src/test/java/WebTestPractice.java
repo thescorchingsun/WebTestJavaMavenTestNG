@@ -22,7 +22,7 @@ public class WebTestPractice {
     public void testMenuStartTitle() throws InterruptedException {   //При переходе по ссылке открывается страница с меню старт
 
         String chromeDriver = "webdriver.chrome.driver";
-        String drivePath = "C:/Testing programs/chromedriver_win32/chromedriver.exe";
+        String drivePath = "C:/Testing programs/ChromeDriver/chromedriver_win32/chromedriver.exe";
         String url = "https://www.99-bottles-of-beer.net/";
         String expectedResult = "Welcome to 99 Bottles of Beer";
 
